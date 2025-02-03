@@ -14,7 +14,7 @@ jobs:
       contents: write
     strategy:
       matrix:
-        device: [beyond2lte, beyond1lte, beyond0lte, beyondx]
+        device: [d2s]
         su: [non-ksu, ksu]
 
     steps:
